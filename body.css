@@ -1,0 +1,245 @@
+.second-row{
+    display: flex;
+    flex-direction: column;
+}
+.pepsi-first-clip,.pepsi-second-clip{
+  
+    right: 0;
+    bottom: 0;
+    align-items: cover;
+}
+.pepsi-second-clip{
+    width: 100%;
+}
+.third-row{
+   position: relative;
+   flex: 1;
+   display: flex;
+   flex-direction: column;
+   background-image: url(./baground/secondbg.png);
+   background-size: 100%;
+   height: 1000px;
+   align-items: center;
+   justify-content: center;
+   
+}
+.fourth-row{
+    background-image:url(./baground/thirdrowbg.png);  
+    height: 1000px;
+    background-size: 100%;
+    align-items: center;
+}
+.img-row2{
+    width: 100%;
+    align-items: center;
+}
+.shop-now-button{
+    position: relative;
+    width: 360px;
+    height: 90px;
+    top: 400px;
+    font-size: 45px;
+    font-family: 'Archivo Black', sans-serif;
+    letter-spacing: -1px;
+    border-style: solid;
+    border: none;
+}
+.shop-now-button:hover{
+    background-color:rgb(28, 28, 242) ;
+    color: white;
+}
+.fourth-row-description-1{
+    font-family: 'Archivo Black', sans-serif;
+    font-size: 90px;
+    color: white;
+    height: 60px;
+    width: 100;
+    align-items: center;
+    letter-spacing: -4px;
+    margin: 0%;
+    text-align: center;
+    bottom: 10% ;
+}
+.fourth-row-description-2{
+    font-family: 'Archivo Black', sans-serif;
+    font-size: 90px;
+    color: white;
+    height: 100px;
+    width: 100;
+    align-items: center;
+    letter-spacing: -4px;
+    margin: 0;
+    margin-top: 20px;
+    text-align: center;
+    
+}
+.fourth-row-down
+{
+    top: 30%;
+    display: grid;
+    grid-template-columns: 1fr ifr;
+    
+}
+.fourth-row-left{
+height: 80px;
+width: 80px;
+}
+.fourth-row-right{
+    height: 80px;
+    width: 80px;
+    }
+
+.image-button-1{
+    width: 575px;
+    height: 300px;
+  border-radius: 15px;
+  background-color:rgb(28, 28, 242) ;
+  border-style: solid;
+  border: 2px;
+  justify-content: left;
+  margin-left: 50px;
+  margin-top: 100px;
+  justify-content: center;
+  transition: box-shadow 0.5s;
+}
+.image-button-2{
+  width: 575px;
+  height: 300px;
+  border-radius: 15px;
+  background-color:rgb(28, 28, 242) ;
+  border-style: solid;
+  border: 2px;
+  justify-content: left;
+  margin-left: 710px;
+  margin-top: 19px;
+  justify-content: center;
+  transition: box-shadow 0.5s;  
+}
+.image-button-1:hover{
+    box-shadow:5px 5px 50px 0.5px rgb(28, 28, 242);
+}
+.image-button-2:hover{
+    box-shadow:5px 5px 50px 0.5px rgb(28, 28, 242);
+}
+
+.image-1,.image-2{
+    width: 565px;
+    height: 290px;
+    border-radius: 1px;
+    justify-content: center;  
+}
+.fan-button{
+    position: relative;
+    width: 500px;
+    height: 90px;
+    top: 400px;
+    font-size: 45px;
+    font-family: 'Archivo Black', sans-serif;
+    letter-spacing: -1px;
+    border-style: solid;
+    border: none;
+    top: 80px;
+    margin-left: 100px;
+}
+.fan-button:hover{
+    background-color:rgb(28, 28, 242) ;
+    color: white;
+}
+.nur-button{
+    position: relative;
+    width: 500px;
+    height: 90px;
+    top: 400px;
+    font-size: 45px;
+    font-family: 'Archivo Black', sans-serif;
+    letter-spacing: -1px;
+    border-style: solid;
+    border: none;
+    top: 80px;
+    margin-left: 750px;
+}
+.nur-button:hover{
+    background-color:rgb(28, 28, 242) ;
+    color: white;
+}
+.fifth-row{
+    margin: 0;
+    height: 750px;
+}
+.sixth-row{
+    width: 100%;
+    height: 300px;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center ;
+    align-items: center;
+}
+
+.sixth-decription{
+    font-size: 50px;
+    color:rgb(28, 28, 242) ;
+    font-family: 'Archivo Black', sans-serif;
+    letter-spacing: -1px;
+    padding-bottom: 10px; 
+    margin: 0;
+}
+.sixth-row-images{
+  width:850px ;
+  height: 180px;
+}
+.sixth-row-images{
+    display: flex;
+    flex-direction: row;
+}
+.sixth-row-images-q{
+    height: 180px;
+    width: 170px;
+    cursor: pointer;
+    transition: transform 0.5s, width 0.5s, height 0.5s;
+}
+.sixth-row-images-q:hover{
+    width: 170px;
+    height: 180px;
+    transform: scale(1.1);
+   
+}
+.footer{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 300px;
+    background-color:rgb(28, 28, 242) ;
+    justify-content: center;
+    align-items: center;
+}
+.footer-contents{
+    display: flex;
+    flex-direction: row;
+    width: 1200px;
+    height: 200px;
+    background-color:rgb(28, 28, 242) ;
+    justify-content: space-between;
+    align-items: center;
+}
+.pepsi-footer-logo{
+    height: 90px;
+    width: 90px;
+    cursor: pointer;
+
+}
+.footer-text{
+    color: white;
+
+}
+.footer-logo{
+display: flex;
+flex-direction: row;
+gap: 20px;
+align-items: center;
+
+}
+.footer-icons{
+    height: 30px;
+    width: 30px;
+}
